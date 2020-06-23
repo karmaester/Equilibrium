@@ -33,6 +33,15 @@
 p {
   color: #8f8f8f;
 }
+#carouselExampleFade{
+  width: 70%;
+  height: 25%;
+  text-align: center;
+  left: 15%;
+}
+.forma{
+  padding: 5%;
+}
 
 #footer {
   text-align: center;
