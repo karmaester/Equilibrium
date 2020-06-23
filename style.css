@@ -1,0 +1,44 @@
+.pega {
+  width: 200px;
+}
+.jumbotron {
+  text-align: center;
+  background-image: url("C:\Users\khris\OneDrive\Documentos\GitHub\TheMicroverseChallenge\images\orange.jpg");
+  background-color: white;
+  height: 60vh;
+}
+.mainhead,
+.lead {
+  color: #ffb100;
+  margin: 35px 0;
+}
+.icon-image {
+  width: 100%;
+  text-align: center;
+  /**font-size: 3rem; insted of using this i should have used the fa-4x to increase the size of the font awesome automatically**/
+  color: #ef8172;
+  /**padding-bottom: 15px; instead of using padding i should have used marging and rem units as well, i moved this paddig to the carousel-item **/
+  margin-bottom: 1rem;
+}
+.icon-image:hover {
+  color: #ffb100;
+}
+.container-fluid {
+  padding: 3% 18% 10%;
+}
+.boletin {
+  text-align: center;
+  padding: 5%;
+}
+p {
+  color: #8f8f8f;
+}
+
+#footer {
+  text-align: center;
+  background-color: #ffb10054;
+  font-size: 20px;
+  font: helvetica;
+  margin-top: 40px;
+  color: azure;
+}
