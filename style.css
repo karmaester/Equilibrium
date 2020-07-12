@@ -1,134 +1,61 @@
-
-.mainhead,
-.lead {
-  color: #ffb100;
-  margin: 35px 0;
-}
-.icon-image {
-  width: 100%;
-  text-align: center;
-  /**font-size: 3rem; insted of using this i should have used the fa-4x to increase the size of the font awesome automatically**/
-  color: #ef8172;
-  /**padding-bottom: 15px; instead of using padding i should have used marging and rem units as well, i moved this paddig to the carousel-item **/
-  margin-bottom: 1rem;
-}
-.icon-image:hover {
-  color: #ffb100;
-}
-.container-fluid {
-  padding: 3% 18% 10%;
-}
-.boletin {
-  text-align: center;
-  padding: 5%;
-}
-p {
-  color: #8f8f8f;
-}
-#carouselExampleFade{
-  width: 70%;
-  height: 25%;
-  text-align: center;
-  left: 15%;
-}
-.forma{
-  padding: 5%;
-}
-
 #footer {
   text-align: center;
   background-color: #ffb10054;
   font-size: 20px;
   font: helvetica;
   margin-top: 40px;
-  color: azure;
+  color: rgb(247, 102, 18);
 }
 #navbarSupportedContent {
-  text-align: right;
-  padding-left: 50%;
   font-size: 1.5vw;
+}
+
+.align-left {
+  align-content: flex-start;
 }
 .welcome0 {
   color: red;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 5vw;
   padding-bottom: 0%;
 }
 
 .welcome1 {
   padding-top: 0%;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 4vw;
 }
 
 .welcome2 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
+  font-size: 2vw;
 }
 
 .logo {
-  width: 48px;
-}
-.myButton {
-	box-shadow: 0px 15px 14px -7px #3e7327;
-	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
-	background-color:#77b55a;
-	border-radius:13px;
-	border:1px solid #4b8f29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:19px;
-	font-weight:bold;
-	padding:8px 45px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #5b8a3c;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
-	background-color:#72b352;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+  width: 8vh;
 }
 
-#video {
+.icon-image {
+  color: #462b2b;
+  margin-bottom: 1rem;
+}
+.icon-image:hover {
+  color: rgb(255, 0, 0);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+/* #video {
   position: absolute;
   right: 20vw;
   top: 8vw;
   width: 300px;
   padding: 10px;
-}
-#download {
-  text-align: center;
-}
-
-.download {
-	box-shadow: 0px 10px 14px -7px #485c15;
-	background:linear-gradient(to bottom, #e6cd6a 5%, #fcca00 100%);
-	background-color:#e6cd6a;
-	border-radius:4px;
-	border:2px solid #fcb335;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:8px 76px;
-	text-decoration:none;
-	text-shadow:2px 1px 1px #748a3d;
-}
-.download:hover {
-	background:linear-gradient(to bottom, #fcca00 5%, #e6cd6a 100%);
-	background-color:#fcca00;
-}
-.download:active {
-	position:relative;
-	top:1px;
-}
-
+} */
