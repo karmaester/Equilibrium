@@ -52,10 +52,49 @@
   flex-wrap: wrap;
   margin-left: -15px;
 }
-/* #video {
-  position: absolute;
-  right: 20vw;
-  top: 8vw;
-  width: 300px;
-  padding: 10px;
-} */
+
+@media (max-width: 599px) {
+  /* For mobile phones: */
+  [class*="but"] {
+    display: none;
+  }
+  .welcome0 {
+    font-size: 7vw;
+  }
+  .welcome1 {
+    font-size: 6vw;
+  }
+  .welcome2 {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 600px) {
+  /* For mobile phones: */
+  [class*="bat"] {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+    align-self: center;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .lft {
+    width: 25%;
+  }
+  .rght {
+    width: 75%;
+  }
+  .flat {
+    width: 33%;
+  }
+}
